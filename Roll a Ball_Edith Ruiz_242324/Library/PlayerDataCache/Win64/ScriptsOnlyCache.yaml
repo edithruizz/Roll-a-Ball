@@ -1,8 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ReadmeEditor
     Assembly-CSharp.dll:
     - CameraController
     - PlayerController
+    - Readme
     - Rotator
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
@@ -104,6 +107,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -111,111 +118,111 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1572}
+      Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 1574}
+      Script: {instanceID: 1600}
     - Class: 114
-      Script: {instanceID: 1576}
+      Script: {instanceID: 1602}
     - Class: 114
-      Script: {instanceID: 1578}
+      Script: {instanceID: 1604}
     - Class: 114
-      Script: {instanceID: 1590}
+      Script: {instanceID: 1616}
     - Class: 114
-      Script: {instanceID: 1660}
+      Script: {instanceID: 1686}
     - Class: 114
-      Script: {instanceID: 1842}
+      Script: {instanceID: 1868}
     - Class: 114
-      Script: {instanceID: 1942}
+      Script: {instanceID: 1968}
     - Class: 114
-      Script: {instanceID: 1972}
+      Script: {instanceID: 1998}
     - Class: 114
-      Script: {instanceID: 2058}
+      Script: {instanceID: 2084}
     - Class: 114
-      Script: {instanceID: 2064}
-    - Class: 114
-      Script: {instanceID: 2378}
-    - Class: 114
-      Script: {instanceID: 2380}
+      Script: {instanceID: 2090}
     - Class: 114
       Script: {instanceID: 2404}
     - Class: 114
-      Script: {instanceID: 2468}
+      Script: {instanceID: 2406}
     - Class: 114
-      Script: {instanceID: 2480}
+      Script: {instanceID: 2430}
     - Class: 114
-      Script: {instanceID: 2696}
+      Script: {instanceID: 2494}
     - Class: 114
-      Script: {instanceID: 2728}
+      Script: {instanceID: 2506}
     - Class: 114
-      Script: {instanceID: 2848}
+      Script: {instanceID: 2722}
     - Class: 114
-      Script: {instanceID: 2876}
+      Script: {instanceID: 2754}
     - Class: 114
-      Script: {instanceID: 3036}
+      Script: {instanceID: 2874}
     - Class: 114
-      Script: {instanceID: 3250}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 3310}
+      Script: {instanceID: 2956}
     - Class: 114
-      Script: {instanceID: 3322}
+      Script: {instanceID: 3064}
     - Class: 114
-      Script: {instanceID: 3440}
+      Script: {instanceID: 3278}
     - Class: 114
-      Script: {instanceID: 3448}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 3588}
+      Script: {instanceID: 3350}
     - Class: 114
-      Script: {instanceID: 3662}
+      Script: {instanceID: 3468}
     - Class: 114
-      Script: {instanceID: 3722}
+      Script: {instanceID: 3476}
     - Class: 114
-      Script: {instanceID: 3858}
+      Script: {instanceID: 3616}
     - Class: 114
-      Script: {instanceID: 4010}
+      Script: {instanceID: 3690}
     - Class: 114
-      Script: {instanceID: 4032}
+      Script: {instanceID: 3750}
     - Class: 114
-      Script: {instanceID: 4138}
+      Script: {instanceID: 3886}
     - Class: 114
-      Script: {instanceID: 4216}
+      Script: {instanceID: 4038}
     - Class: 114
-      Script: {instanceID: 4264}
+      Script: {instanceID: 4060}
     - Class: 114
-      Script: {instanceID: 4304}
+      Script: {instanceID: 4166}
     - Class: 114
-      Script: {instanceID: 4400}
+      Script: {instanceID: 4244}
     - Class: 114
-      Script: {instanceID: 4404}
+      Script: {instanceID: 4292}
     - Class: 114
-      Script: {instanceID: 4420}
+      Script: {instanceID: 4332}
     - Class: 114
-      Script: {instanceID: 4478}
+      Script: {instanceID: 4428}
     - Class: 114
-      Script: {instanceID: 4606}
+      Script: {instanceID: 4432}
     - Class: 114
-      Script: {instanceID: 4780}
+      Script: {instanceID: 4448}
     - Class: 114
-      Script: {instanceID: 5002}
+      Script: {instanceID: 4506}
     - Class: 114
-      Script: {instanceID: 5252}
+      Script: {instanceID: 4634}
     - Class: 114
-      Script: {instanceID: 5450}
+      Script: {instanceID: 4808}
+    - Class: 114
+      Script: {instanceID: 5030}
+    - Class: 114
+      Script: {instanceID: 5280}
     - Class: 114
       Script: {instanceID: 5478}
     - Class: 114
-      Script: {instanceID: 5540}
+      Script: {instanceID: 5506}
     - Class: 114
-      Script: {instanceID: 5664}
+      Script: {instanceID: 5568}
     - Class: 114
-      Script: {instanceID: 5940}
+      Script: {instanceID: 5692}
     - Class: 114
-      Script: {instanceID: 5988}
+      Script: {instanceID: 5968}
     - Class: 114
-      Script: {instanceID: 6104}
+      Script: {instanceID: 6016}
     - Class: 114
-      Script: {instanceID: 6388}
+      Script: {instanceID: 6132}
     - Class: 114
-      Script: {instanceID: 19086}
+      Script: {instanceID: 6416}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -441,7 +448,7 @@ ScriptsOnlyBuild:
     className: ColorCurves
   - hash:
       serializedVersion: 2
-      Hash: fde8ba8986b0702fbadeffa5b584f0e2
+      Hash: 87b074e11d11fe239fadf9ed237306e9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -535,6 +542,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: EnumerableTestState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rotator
   - hash:
       serializedVersion: 2
       Hash: 31995eb8416877c9afd92b5d1b50df0d
@@ -1249,14 +1262,8 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Rotator
   platform: 19
   scenePathNames:
   - Assets/Scenes/MiniGame.unity
-  playerPath: C:/Users/edith/Desktop/Uni/4th Year/3rd Term/Roll a Ball/Builds/Roll
-    a Ball.exe
+  playerPath: C:/Users/edith/Desktop/Uni/4th Year/3rd Term/Roll-a-Ball/Roll a Ball_Edith
+    Ruiz_242324/Builds/Roll a Ball.exe
